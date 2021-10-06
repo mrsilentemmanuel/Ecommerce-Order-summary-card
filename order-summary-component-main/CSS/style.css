@@ -1,0 +1,190 @@
+@import url("https://fonts.google.com/specimen/Red+Hat+Display");
+
+@media (min-width: 1440px) {
+  .container {
+    width: 400px;
+  }
+}
+
+body {
+    margin: 0px !important;
+    font-family: 'Red Hat Display' !important;
+	font-size: 16px;
+	background-color: hsl(225, 100%, 94%);
+	text-align: center;
+	background: url(./images/pattern-background-desktop.svg);
+    background-size: cover;
+	}
+	
+*{
+	box-sizing: border-box;
+	}
+	
+
+/*styling the box */	
+div {
+  display: block;
+}
+
+.music-icon {
+  width: 20%;
+}
+
+img {
+  width: 100%;
+}
+
+.music-text-container h2 {
+  color: hsl(223, 47%, 23%);
+  font-weight: 700;
+  font-size: 16px;
+}
+
+.music-text-container p {
+  color: hsl(224, 23%, 55%);
+  font-size: 14px;
+}
+
+.music-container {
+  margin: auto;
+  display: flex;
+  margin-top: 1.5rem;
+  justify-content: space-between;
+  align-items: center;
+  background-color: hsl(225, 100%, 98%);
+  padding: 13px;
+  width: 90%;
+  border-radius: 1rem;
+}
+
+.img-container {
+  overflow: hidden;
+  width: 100%;
+  border-top-right-radius: 1.5rem;
+  border-top-left-radius: 1.5rem;
+}
+
+.summary-container h1 {
+  color: hsl(223, 47%, 23%);
+  margin-top: 1.5rem;
+  font-size: 1.5rem;
+  font-weight: 900;
+  text-align: center;
+}
+.summary-container p {
+  font-size: 1rem;
+  margin-top: 1.5rem;
+  text-align: center;
+  color: hsl(224, 23%, 55%);
+  font-weight: 500;
+}
+	
+/* scroll style end */
+.wrapper {
+    display: flex;
+    justify-content: center;
+    flex-wrap: wrap;
+    background-color:#FFFFFF;
+    min-height: 100vh;
+    width: 100%;
+}
+
+
+/* Light Blue box */
+.container {
+    max-width: 780px;
+    width: 30%;
+	background-color: hsl(225, 100%, 94%);
+    background-size: cover;
+    background-repeat: no-repeat;
+    height: 150vh;
+	padding-top: 65px;
+}
+
+/*  Remove and Add Stock Box */
+.cardWrapper {
+	text-align: center;
+}
+
+/* White Cardbox */
+.cardBox {
+  margin: 4rem auto;
+  width: 90%;
+  max-width: 75%;
+  background: #fff;
+  border-radius: 20px;
+}
+/*Order Summary */
+.orderSummary {
+	font-size: 16px;
+	font-family: 'Red Hat Display';
+	font-weight: 500, 700, 900;
+	margin-left: 25px;
+	margin-right: 25px;
+	justify-content: center;
+}
+
+/* Section Header */
+.image{
+	height: 50%; s
+	border-radius: 10px; 
+	width: 100%; 
+	object-fit: contain;
+}
+
+/*Proceed to Payment and Cancel Button */
+#payment {
+  border: none;
+  border-radius: 1rem;
+  margin-top: 1.5rem;
+  color: white;
+  font-weight: 700;
+  height: 3rem;
+  width: 62%;
+  background-color: hsl(245, 75%, 52%);
+  box-shadow: hsl(245deg 75% 52%) 0px 25px 20px -20px;
+  margin-bottom: 1.5rem;
+}
+
+#cancel {
+  height: 3rem;
+  width: 40%;
+  border: none;
+  background-color: transparent;
+  color: hsl(224, 23%, 75%);
+  font-weight: 700;
+  margin-bottom: 1.5rem;
+}
+
+#payment:hover {
+  background-color: #fff;
+  color: hsl(245, 75%, 52%);
+  box-shadow: none;
+  border: 2px solid hsl(245, 75%, 52%);
+  transition: 0.2s ease-out;
+  cursor: pointer;
+}
+
+#cancel:hover {
+  color: #555;
+  transform: scale(1.1);
+  transition: all 0.1s ease;
+  cursor: pointer;
+}
+
+
+.music-text-container h2 {
+  color: hsl(223, 47%, 23%);
+  font-weight: 700;
+  font-size: 16px;
+}
+
+.music-text-container p {
+  color: hsl(224, 23%, 55%);
+  font-size: 14px;
+}
+
+
+
+
+
